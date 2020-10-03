@@ -1,0 +1,99 @@
+body{
+    background-color:hsl(0, 0%, 30%);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:hsl(240, 47%, 89%);
+    padding: 20px;
+}
+
+.add{
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    border: none;
+    padding: 7px;
+}
+
+.add input[type="text"]{
+    border-radius: 10px 0 0 10px;
+}
+
+.btn{
+    background-color: rgb(100, 100, 199);
+    color: white;
+    cursor: pointer;
+}
+
+button.btn-supp{
+    background-color: rgb(214, 52, 52);
+    margin-top: 8px;
+}
+
+button.btn-edit{
+    background-color: rgb(100, 100, 199);
+    margin-top: 8px;
+    margin-left: 400px;
+}
+
+button.btn.btn-supp,button.btn.btn-edit {
+    height: 100%;
+}
+
+.btn:hover{
+    color: rgb(195, 195, 195);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list{
+    background-color:rgb(100, 100, 199);
+    box-sizing: border-box;
+    width: 1000px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.list .objet-list{
+    color: white; 
+}
+
+.item{
+    background-color:hsl(240, 47%, 89%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 15px 10px;
+    transition: 0.3s;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	border: none;
+    color: black;
+    font-size: 26px; 
+    transition: 0.3s;
+}
+
+.item_input_edit{
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.objet{
+    padding: 5px;
+    font-size: 20px;
+}
